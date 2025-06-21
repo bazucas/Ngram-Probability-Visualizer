@@ -27,11 +27,7 @@ N-gram models are a foundational technique in NLP and information retrieval:
 1. **Unigrams** estimate $P(w)$ by frequency of single words.
 2. **Bigrams/Trigrams** capture local context:
 
-   $$
-     P(w_i\mid w_{i-2},w_{i-1})
-     = \frac{\mathrm{count}(w_{i-2},w_{i-1},w_i) + \alpha}
-            {\mathrm{count}(w_{i-2},w_{i-1}) + \alpha\,V}
-   $$
+   ![Formula](formula.png)
 3. **Laplace smoothing** ($\alpha=1$) avoids zero probabilities for unseen n-grams.
 4. Step-by-step breakdown helps you understand exactly how the model computes each factor.
 
@@ -77,7 +73,7 @@ venv\Scripts\activate       # Windows
 python ngram_gui.py
 ```
 
-If you place a **counts.json** alongside `ngram_gui.py`, it will override the built-in defaults. Format:
+If you place a **counts.json** alongside `ngrams_1.py`, it will override the built-in defaults. Format:
 
 ```jsonc
 {
