@@ -79,7 +79,7 @@ venv\Scripts\activate       # Windows
 python ngram_gui.py
 ```
 
-If you place a **counts.json** alongside `ngram_gui.py`, it will override the built-in defaults. Format:
+If you place a **counts.json** alongside `ngrams_1.py`, it will override the built-in defaults. Format:
 
 ```jsonc
 {
