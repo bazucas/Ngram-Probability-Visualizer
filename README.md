@@ -2,8 +2,6 @@
 
 A lightweight, multilingual desktop application to compute and visualize unigram, bigram and trigram probabilities on your own counts, with step-by-step formulas and results in Portuguese, English and French.
 
-![App Screenshot](ngram.png)
-
 ---
 
 ## 🔍 What’s This Project?
@@ -68,7 +66,7 @@ N-gram models are a foundational technique in NLP and information retrieval:
 ## 🚀 Installation & Usage
 
 ```bash
-git clone https://github.com/bazucas/ngram-probability-visualizer.git
+git clone https://github.com/yourusername/ngram-probability-visualizer.git
 cd ngram-probability-visualizer
 
 # (Optional) create & activate venv
